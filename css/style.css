@@ -99,7 +99,6 @@ a {
   margin-left: 93px;
 }
 .nav-link {
-
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -109,10 +108,9 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: 
-  color 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
-.nav-item{
+.nav-item {
   position: relative;
 }
 .activ-page::after {
@@ -147,20 +145,19 @@ a {
   margin-left: 50px;
 }
 .contact-head {
-  transition:color 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 
   display: flex;
   align-items: center;
   padding: 32px 0;
-  
+
   color: var(--second-text-color);
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
-  }
+}
 /* іконки контактів */
 .icon-envelop {
   margin-right: 10px;
@@ -193,8 +190,8 @@ a {
 }
 .hero-title {
   margin: auto;
-  
-  width: 696px ;
+
+  width: 696px;
   font-weight: 900;
   text-align: center;
   font-size: 44px;
@@ -216,14 +213,13 @@ a {
   line-height: 1.86;
   border-radius: 4px;
   border-color: transparent;
-  transition: background-color 250ms var(--timing-function),
-  color 250ms var(--timing-function), 
-  box-shadow 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .button:hover,
 .button:focus {
   background-color: var(--primary-btn-hover-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* секція переваги advantages */
 .section {
@@ -290,15 +286,15 @@ a {
   margin-top: 50px;
   flex-basis: calc(100% / 3);
 }
-.item-example{
+.item-example {
   position: relative;
 }
 
-.item-example:nth-last-child(n+2) {
+.item-example:nth-last-child(n + 2) {
   margin-right: var(--margin-pic);
 }
 
-.example-cont{
+.example-cont {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -307,7 +303,7 @@ a {
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-  
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.43;
@@ -330,13 +326,11 @@ a {
 .team-item {
   background-color: var(--main-background-color);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-  0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 
-  transition: background-color 250ms var(--timing-function),
-  color 250ms var(--timing-function),
-  box-shadow 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .team-item + .team-item {
   margin-left: var(--margin-pic);
@@ -372,9 +366,8 @@ a {
   margin-left: 10px;
 }
 .soc-icon-link {
-  transition: background-color 250ms var(--timing-function),
-  color 250ms var(--timing-function), 
-  fill 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    fill 250ms var(--timing-function);
 
   display: flex;
   width: 44px;
@@ -391,15 +384,14 @@ a {
   fill: var(--main-background-color);
 }
 /* ПОСТІЙНІ КЛІЄНТИ */
-.client{
+.client {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
 .client-icon {
-  transition: background-color 250ms var(--timing-function),
-  color 250ms var(--timing-function),
-  fill 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    fill 250ms var(--timing-function);
 
   display: flex;
   justify-content: center;
@@ -407,7 +399,7 @@ a {
 
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: var(--icon-color);
 }
@@ -416,7 +408,7 @@ a {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-.client>li+li{
+.client > li + li {
   margin-left: 30px;
 }
 /* ФУТЕР */
@@ -429,11 +421,12 @@ a {
 .logo-foot {
   color: var(--third-text-color);
 }
-.footer-cont{
+.footer-cont {
   align-items: baseline;
   display: flex;
+  align-items: center;
 }
-.footer-box{
+.footer-box {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
@@ -444,9 +437,8 @@ a {
   color: var(--third-text-color);
   font-style: normal;
 
-  transition: bachground-color 250ms var(--timing-function),
-  color 250ms var(--timing-function),
-  box-shadow 250ms var(--timing-function);
+  transition: bachground-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .location:hover,
 .location:focus {
@@ -463,16 +455,15 @@ a {
   color: var(--second-text-color);
   font-style: normal;
 
-  transition: background-color 250ms var(--timing-function),
-  color 250ms var(--timing-function),
-  box-shadow 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .contact-link-foot:hover,
 .contact-link-foot:focus {
   color: var(--accent-color);
 }
 /* Соціальні мережі футер */
-.social-title{
+.social-title {
   color: var(--third-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -481,18 +472,74 @@ a {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.soc-icon-link.foot{
+.soc-icon-link.foot {
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--third-text-color);
 
-  transition: background-color 250ms var(--timing-function),
-  color 250ms var(--timing-function),
-  box-shadow 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .soc-icon-link.foot:hover,
-.soc-icon-link.foot:focus{
+.soc-icon-link.foot:focus {
   background-color: var(--accent-color);
 }
+.subsscribe-form {
+  margin-left: auto;
+  align-items: center;
+}
+
+.sign-mail {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+.subscribe {
+  width: 358px;
+  height: 55px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.button-footer {
+  display: flex;
+  padding: 10px 0 10px 29px;
+  margin-left: 12px;
+
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  min-width: 200px;
+  max-height: 50px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250ms var(--timing-function);
+}
+.button-footer:hover,
+.button-footer:focus {
+  background-color: var(--primary-btn-hover-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button-footer > svg {
+  margin: 13px 28px 13px 10px;
+}
+/* input[type='email']::-webkit-input-placeholder {
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+} */
 
 /* ПОРТФОЛІО */
 /* Кнопки фільтр */
@@ -519,18 +566,16 @@ a {
   border-radius: 4px;
   border: transparent;
 
-  transition: background-color 250ms var(--timing-function),
-  color 250ms var(--timing-function),
-  box-shadow 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .button-radio:hover,
 .button-radio:focus {
   color: var(--third-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-  0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* приклади робіт */
 .card-set {
@@ -553,15 +598,13 @@ a {
 }
 .card-link {
   display: block;
-  transition: 
-  box-shadow 250ms var(--timing-function);
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .card-link:hover,
 .card-link:focus {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-  0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .card-title {
   color: var(--primary-text-color);
@@ -572,24 +615,24 @@ a {
 }
 .card-text {
   margin-top: 4px;
-  
+
   color: var(--second-text-color);
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
 }
 /* Оверлей карток */
-.product-thumb{
+.product-thumb {
   position: relative;
   overflow: hidden;
 }
-.product-thumb .owerlay-text{
+.product-thumb .owerlay-text {
   position: absolute;
   left: 0;
   top: 0;
 
   padding: 63px 24px;
-  background-color: rgba(33, 150, 243, 0.9); 
+  background-color: rgba(33, 150, 243, 0.9);
   width: 100%;
   height: 100%;
   color: var(--third-text-color);
@@ -602,55 +645,54 @@ a {
 }
 .card-link:hover .owerlay-text,
 .card-link:focus .owerlay-text {
-  transform:translateY(0);
+  transform: translateY(0);
   transition: transform 250ms var(--timing-function);
 }
 /* МОДАЛЬНЕ ВІКНО */
-.backdrop{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-opacity: 1;
-transition: opacity 250ms var(--timing-function);
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 250ms var(--timing-function);
 
-background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
-.backdrop.is-hidden .modal{
-transform:translate(-50%, -50%) scale(0.7)
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.7);
 }
-.modal{
-position: absolute;
-top: 50%;
-left: 50%;
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
-width: 528px;
-height: 581px;
-border-radius: 4px;
+  width: 528px;
+  height: 581px;
+  border-radius: 4px;
 
-background-color: var(--main-background-color);
-transform: translate(-50%, -50%) scale(1.1);
-transition: translate 250ms var(--timing-function);
-
+  background-color: var(--main-background-color);
+  transform: translate(-50%, -50%) scale(1.1);
+  transition: translate 250ms var(--timing-function);
 }
-.modal-btn{
+.modal-btn {
   position: absolute;
   right: 8px;
-  top:8px;
+  top: 8px;
+
+  display: flex;
+  align-items: center;
   cursor: pointer;
-  display: block;
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--main-background-color);
-  background-image:url(../images/Close-btn.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  /* background-repeat: no-repeat;
+  background-position: 50% 50%; */
 }
-
