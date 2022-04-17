@@ -747,7 +747,7 @@ input::placeholder {
   height: 120px;
   resize: none;
 }
-.form-input:focus ~ .icon-lable {
+.checkbox:focus ~ .icon-lable {
   fill: var(--accent-color);
 }
 textarea::placeholder {
@@ -766,10 +766,16 @@ textarea::placeholder {
   letter-spacing: 0.01em;
 }
 .check {
+  display: flex;
+  align-items: center;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .agriment {
   font-size: 14px;
@@ -777,6 +783,32 @@ textarea::placeholder {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: var(--accent-color);
+}
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.check-icon {
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--primary-text-color);
+  border-radius: 4px;
+  transition: background-image 250ms var(--timing-function),
+    background-color 250ms var(--timing-function), bborder 250ms var(--timing-function);
+}
+.checkbox:checked + .check-icon {
+  border: transparent;
+  background-color: var(--accent-color);
+  background-size: contain;
+  border-radius: 4px;
+  background-position: 50% 50%;
+  background-origin: border-box;
+
+  background-image: url(../images/icon\ check-form.svg);
 }
 
 .button.modal-form {

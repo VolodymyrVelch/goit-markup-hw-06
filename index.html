@@ -318,10 +318,8 @@
 
     </footer>
     <!-- Модальне вікно -->
-    <!-- is-hidden -->
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden " data-modal>
         <div class="modal">
-
             <form class="modal-cont" action="" name="contact-form" autocomplete="on">
                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
                 <ul>
@@ -358,14 +356,12 @@
                             placeholder="Введите текст"></textarea>
                     </li>
                 </ul>
-                <input type="checkbox" name="agree-with" id="agree">
-                <label class="check" for="agree">Соглашаюсь с рассылкой и принимаю <span><a class="agriment"
-                            href="">Условия
+                <label class="check" for="agree">
+                    <input class="checkbox" type="checkbox" name="agree-with" id="agree">
+                    <span class="check-icon"></span>
+                    <span>Соглашаюсь с рассылкой и принимаю<a class="agriment" href="">Условия
                             договора</a></span>
                 </label>
-                <svg width="16" height="15">
-                    <use href="./images/icons.svg#icon-check-form"></use>
-                </svg>
                 <button class="button modal-form" type="submit">Отправить</button>
             </form>
             <div><button data-modal-close class="modal-btn">
