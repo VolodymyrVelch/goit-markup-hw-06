@@ -203,6 +203,7 @@ a {
 /* кнопки */
 .button {
   margin-top: 30px;
+  padding: 10px 32px;
 
   font-family: inherit;
   color: var(--third-text-color);
@@ -424,7 +425,6 @@ a {
 .footer-cont {
   align-items: baseline;
   display: flex;
-  align-items: center;
 }
 .footer-box {
   display: flex;
@@ -534,7 +534,7 @@ a {
 }
 
 .button-footer > svg {
-  margin: 13px 28px 13px 10px;
+  margin-left: 10px;
 }
 input::placeholder {
   font-size: 16px;
@@ -695,6 +695,7 @@ input::placeholder {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--main-background-color);
+  transition: fill 250ms var(--timing-function);
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -709,10 +710,14 @@ input::placeholder {
   letter-spacing: 0.03em;
 }
 .modal-cont {
-  padding: 40px 40px 0 40px;
+  padding: 40px;
 }
-.modal-cont li {
+.modal-cont > ul {
+  margin-bottom: 20px;
+}
+.form-item:not(last-child) {
   display: flex;
+  /* width: 100%; */
   flex-direction: column;
   margin-bottom: 10px;
 }
@@ -726,6 +731,7 @@ input::placeholder {
   left: 12px;
   top: 11px;
 }
+
 .form-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -768,6 +774,7 @@ textarea::placeholder {
 .check {
   display: flex;
   align-items: center;
+  justify-content: center;
 
   font-size: 14px;
   line-height: 1.71;
